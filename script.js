@@ -22,7 +22,6 @@ noButton.addEventListener("mouseover", () => {
 
 okButton.addEventListener("click", () => {
   if (!userNameEl.value.trim()) return;
-  S;
 
   const name = userNameEl.value;
 
