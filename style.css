@@ -93,3 +93,7 @@ html {
 .okay-button {
   margin-top: 10px;
 }
+
+.notify {
+  display: none;
+}
