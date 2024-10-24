@@ -1,0 +1,95 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  background-image: url("propose.webp");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  object-position: center center;
+  background-attachment: fixed;
+}
+
+.text {
+  font-size: 2rem;
+  color: gold;
+  font-weight: bold;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.no-button,
+.yes-button,
+.okay-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 5px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+}
+
+.no-button:hover,
+.yes-button:hover,
+.okay-button:hover {
+  opacity: 0.8;
+}
+
+.yes-button {
+  background: linear-gradient(135deg, #cb7411, #25fc49);
+}
+
+.no-button {
+  background: linear-gradient(135deg, #ff2c10, #fc25a2);
+}
+
+.modal {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.281);
+  font-size: 1.2rem;
+}
+
+.modal > div {
+  background-color: gold;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.response {
+  display: none;
+}
+
+.username {
+  margin-top: 10px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.okay-button {
+  margin-top: 10px;
+}
